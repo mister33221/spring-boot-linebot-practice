@@ -56,6 +56,13 @@
             <artifactId>jackson-databind</artifactId>
         </dependency>
 
+        <!-- okhttp -->
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>4.9.1</version>
+        </dependency>
+
         <!-- LINE BOT API -->
         <dependency>
             <groupId>com.linecorp.bot</groupId>

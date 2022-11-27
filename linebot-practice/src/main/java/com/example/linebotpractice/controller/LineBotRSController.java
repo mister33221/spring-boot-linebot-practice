@@ -54,7 +54,7 @@ public class LineBotRSController {
 
     //    v3
     @RequestMapping("/callback")
-    public void callback(@RequestBody EventWrapper events) {
+    public void callback(@RequestBody EventWrapper events) throws IOException {
         System.out.println("This is messages event");
         for (Event event : events.getEvents()) {
             if ("message".equals(event.getType()) && "user".equals(event.getSource().getType())) {
