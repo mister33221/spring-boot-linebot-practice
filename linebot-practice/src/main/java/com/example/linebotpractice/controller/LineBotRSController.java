@@ -7,17 +7,12 @@ import com.example.linebotpractice.model.LineUserMessage;
 import com.example.linebotpractice.service.LineUserMessageService;
 import com.example.linebotpractice.service.LineUserService;
 import com.example.linebotpractice.util.ReplyUtil;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.net.ssl.HttpsURLConnection;
-import java.io.DataOutputStream;
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.nio.charset.Charset;
+
 
 @RestController
 public class LineBotRSController {
@@ -74,7 +69,6 @@ public class LineBotRSController {
                 case "text":
                     System.out.println("event: " + event);
                     replyUtil.replyMessage(event.getReplyToken(), event.getMessage().getText(), event.getSource().getUserId());
-//                    replyUtil.sendResponseTextMessages(event.getReplyToken(), respMessage);
                     break;
                 case "image":
                     System.out.println("This is image event, It's replyToken is " + event.getReplyToken());

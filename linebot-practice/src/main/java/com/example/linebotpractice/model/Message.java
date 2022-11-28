@@ -22,14 +22,3 @@ public class Message {
     private String stickerId;
 
 }
-
-// message type includes:
-// text
-// sticker
-// image
-// video
-// audio
-// location
-// imagemap
-// template
-// flex
