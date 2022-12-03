@@ -3,6 +3,8 @@ spring boot linebot practice
 
 note is here https://hackmd.io/tEBYj6uZRj-a8TvSXI4yHw?view
 
+This project use ngrok, so It may not be able to use directly, because the url which offer by ngrok changes every time. 
+
 * echo project.
 1. Run the echo project.
 2. Send the message, and the line bot will return the same message to you. 
