@@ -156,7 +156,6 @@ public enum FlexMessageDemo {
     }
 
     public static String getWeatherFlexMessageDemo(FlexMessageDemo flexMessageDemo, String locationName, String time, String temperature, String rainProbability, String weatherDescription, String weatherIconUrl) {
-        HttpUtil httpUtil = new HttpUtil();
         return " {" +
                 "      \"type\": \"flex\"," +
                 "      \"altText\": \"This is a Flex Message\"," +
