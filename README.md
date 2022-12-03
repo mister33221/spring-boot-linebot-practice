@@ -13,7 +13,7 @@ note is here https://hackmd.io/tEBYj6uZRj-a8TvSXI4yHw?view
 1. Run the advanced project
 2. Send "help" message, and the line bot will return the acticed command. Some are just prototype. Some are completed.
 
-![image](https://user-images.githubusercontent.com/68389273/205443512-8d3625f0-d561-4f75-9f19-3177ec8c71f4.png)
+![image](https://user-images.githubusercontent.com/68389273/205443822-797b93f8-0c56-476e-bff3-efa8fa1e55a8.png)
 
 3. Send "github_page", line bot will retuen my github page to you.
 
