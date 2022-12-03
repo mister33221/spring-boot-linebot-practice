@@ -156,22 +156,22 @@ public class LinebotService {
                 replyText(replyToken, "請輸入以下指令:\n" +
                         "1. help\n" +
                         "2. profile\n" +
-                        "3. bye(group only)\n" +
-                        "4. group_summary(group only)\n" +
-                        "5. group_member_count(group only)\n" +
-                        "6. room_summary(room only)\n" +
-                        "7. room_member_count(room only)\n" +
-                        "8. confirm\n" +
-                        "9. buttons\n" +
-                        "10. carousel\n" +
-                        "11. image_carousel\n" +
-                        "12. imagemap\n" +
-                        "13. imagemap_video\n" +
-                        "14. flex\n" +
-                        "15. quickreply\n" +
-                        "16. no_notify\n" +
-                        "17. redelivery\n" +
-                        "18. icon\n" +
+                        "3. bye (group only)\n" +
+                        "4. group_summary   (group only)\n" +
+                        "5. group_member_count  (group only)\n" +
+                        "6. room_summary    (room only)\n" +
+                        "7. room_member_count   (room only)\n" +
+                        "8. confirm (prototype)\n" +
+                        "9. buttons (prototype)\n" +
+                        "10. carousel   (prototype)\n" +
+                        "11. image_carousel (prototype)\n" +
+                        "12. imagemap   (prototype)\n" +
+                        "13. imagemap_video (prototype)\n" +
+                        "14. flex   (prototype)\n" +
+                        "15. quickreply (prototype)\n" +
+                        "16. no_notify  (prototype)\n" +
+                        "17. redelivery (prototype)\n" +
+                        "18. icon   (prototype)\n" +
                         "19. github_page\n" +
                         "20. history_message\n"
                 );
